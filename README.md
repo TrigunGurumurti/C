@@ -1,1 +1,1 @@
-# In this repository, Basics of C language is covered
+# In this repository, Basics of C language and DSA is covered
