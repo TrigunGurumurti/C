@@ -36,7 +36,11 @@ int main()
   temp=head;
   while(temp!=NULL)
   {
-    printf("%d -> ",temp->data);
+    printf("%d",temp->data);
+    if(temp->next!=NULL)
+    {
+      printf(" -> ");
+    }
     temp=temp->next;
     count++;
   }
